@@ -86,7 +86,7 @@ module.exports = {
         // 是否启用
         enable: true,
         // 包含的属性
-        include: ['title','catalog','tags','date','description','description','references','articleGPT'], // 只输出include包含的属性
+        include: ['title','catalog','tags','description','description','references','articleGPT'], // 只输出include包含的属性
         // 不包含的属性
         exclude: ['status'], // 不输出exclude包含的属性
       }},
