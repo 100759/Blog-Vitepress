@@ -5,8 +5,8 @@
       <!-- 介绍 -->
       <div class="about-item hello">
         <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
-        <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
+        <span class="text2 title2">我是 FuHeng</span>
+        <span class="text3">是一名 网络爱好者</span>
       </div>
       <!-- 追求 -->
       <div class="about-item pursuit">
@@ -58,18 +58,18 @@
       <!-- 性格 -->
       <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
-        <span class="title2">物流师</span>
+        <span class="title2">内向</span>
         <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
         <span class="more">
           在
-          <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
+          <a href="https://810C.cn" target="_blank">16personalities</a>
           了解更多关于
-          <a href="https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC" target="_blank">
-            物流师
+          <a href="https://810C.cn" target="_blank">
+            Blog
           </a>
         </span>
         <img
-          src="https://pic.imgdb.cn/item/653a8388c458853aefefcc58.png"
+          src=""
           alt="male"
           class="male"
         />
@@ -144,16 +144,16 @@
           class="about-item map image"
           style="background-image: url(https://pic.imgdb.cn/item/653a8388c458853aefefcc58.png)"
         >
-          <span class="position">我现在住在 <strong>中国，河南省</strong></span>
+          <span class="position">我现在住在 <strong>中国，河北省</strong></span>
         </div>
         <div class="about-item info">
           <div class="info-item">
             <span class="info-name">生于</span>
-            <span class="info-num" style="--color: #43a6c6">2001</span>
+            <span class="info-num" style="--color: #43a6c6">2002</span>
           </div>
           <div class="info-item">
             <span class="info-name">现在职业</span>
-            <span class="info-num" style="--color: #dfac46">前端开发工程师</span>
+            <span class="info-num" style="--color: #dfac46">学生</span>
           </div>
         </div>
       </div>

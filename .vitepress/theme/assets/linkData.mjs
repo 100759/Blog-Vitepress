@@ -21,7 +21,7 @@ const linkData = [
     typeDesc: "我们在一起，共同进步",
     typeList: [
       {
-        name: "無名小栈",
+        name: "810C",
         avatar: "https://pic.imgdb.cn/item/653a8388c458853aefefcc58.png",
         desc: "分享技术与科技生活",
         url: "https://blog.imsyy.top/",

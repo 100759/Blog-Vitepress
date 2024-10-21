@@ -20,7 +20,7 @@
         <a href="https://github.com/imsyy/" target="_blank" class="social-link">
           <i class="iconfont icon-github"></i>
         </a>
-        <a href="mailto:one@imsyy.top" target="_blank" class="social-link">
+        <a href="2827162018@qq.com" target="_blank" class="social-link">
           <i class="iconfont icon-email"></i>
         </a>
       </div>
