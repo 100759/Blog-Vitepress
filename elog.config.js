@@ -82,6 +82,10 @@ module.exports = {
       format: 'markdown',
       filter: true, // 表示将按照表中的【status】字段进行过滤，保留所有【已发布】的文档
       catalog: true,
+      frontMatter: {
+        enable: true,
+        include: ['title', 'tags', 'categories', 'date', 'description'],
+      }
     },
     // halo配置
     halo: {
