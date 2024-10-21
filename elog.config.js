@@ -82,14 +82,7 @@ module.exports = {
       format: 'markdown',
       filter: true, // 表示将按照表中的【status】字段进行过滤，保留所有【已发布】的文档
       catalog: true,
-      frontMatter: {
-        // 是否启用
-        enable: true,
-        // 包含的属性
-        include: ['title','catalog','tags','description','description','references','articleGPT'], // 只输出include包含的属性
-        // 不包含的属性
-        exclude: ['status'], // 不输出exclude包含的属性
-      }},
+    },
     // halo配置
     halo: {
       // 从环境变量中获取endpoint
