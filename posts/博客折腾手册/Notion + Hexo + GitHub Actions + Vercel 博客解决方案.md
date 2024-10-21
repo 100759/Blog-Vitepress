@@ -1,14 +1,13 @@
 ---
-category: 博客折腾手册
+catalog: 博客折腾手册
 tags:
   - elog
   - notion
   - hexo
   - blog
-status: 已发布
 date: '2023-11-08 00:00:00'
-catalog: []
 title: Notion + Hexo + GitHub Actions + Vercel 博客解决方案
+description: 这是一个描述文件
 ---
 
 # 博客工具
@@ -99,10 +98,10 @@ npm run server
 注册 Vercel 账号并绑定 Github，在 Vercel 导入 该项目，Vercel 会自动识别出该 Hexo 项目，不需要改动，直接选择 Deploy 部署。部署完成会有一个 Vercel 临时域名，你也可以绑定自己的域名。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/4467a32f-6a3d-4c4b-ab8c-ca3e42860df8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T043007Z&X-Amz-Expires=3600&X-Amz-Signature=c4faddb4bde16472f8916113f695b2ec46cd64a4c9cf8702510f53a16a7297f9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/4467a32f-6a3d-4c4b-ab8c-ca3e42860df8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T060345Z&X-Amz-Expires=3600&X-Amz-Signature=a42f60a4df8a49cd961678e1dfb43a7a0ab4768cdf23d749ed00806932f2340e&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/3daedef9-b516-40e6-8c80-80bff543d62c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T043007Z&X-Amz-Expires=3600&X-Amz-Signature=0455a2b9c2430942ccb16f4cede032bb1e5f4d37a0f199c17899b355030848f4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/3daedef9-b516-40e6-8c80-80bff543d62c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T060345Z&X-Amz-Expires=3600&X-Amz-Signature=8fc0b8fe5964b2d898282e88d92f384d2060f47b5988b7d385f3610fbf40e4e7&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 10. 配置 Github Actions 权限
@@ -111,7 +110,7 @@ npm run server
 在 Github 仓库的设置中找到 `Actions-General`，打开流水线写入权限`Workflow permissions`
 
 
-	![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/655e63eb-9fca-4856-ad6d-9deb87907f4a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T043007Z&X-Amz-Expires=3600&X-Amz-Signature=810867a4985c72b8be8134e55bd8dfb4a08ef22b54c142e8788cbe5fe67d296d&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/655e63eb-9fca-4856-ad6d-9deb87907f4a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T060346Z&X-Amz-Expires=3600&X-Amz-Signature=f2efda3880561a6c74998742e0355b8da0610b4e46799d1bd4e54c2e0525e562&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 11. 配置环境变量
@@ -123,7 +122,7 @@ npm run server
 在 Github 仓库的设置中找到 `Secrets  and variables`，新增仓库的环境变量`NOTION_DATABASE_ID`和`NOTION_TOKEN`和`.elog.env`保持一致即可
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/00308cea-f5bb-4345-bc1d-7fce622ee54a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T043007Z&X-Amz-Expires=3600&X-Amz-Signature=6e6df1d7210dbc6c6e58ba78575ca4fc67c8b1b437b456affa631eefb0114057&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/00308cea-f5bb-4345-bc1d-7fce622ee54a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T060345Z&X-Amz-Expires=3600&X-Amz-Signature=ee1f5f79f691ef8f52c1f13b0094a4affde9d33046ae9c9f6a3e384370a85676&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 12. 自动化部署
