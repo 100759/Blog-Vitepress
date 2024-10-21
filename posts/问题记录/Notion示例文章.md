@@ -106,7 +106,7 @@ Notion示例文章的子页面
 [bookmark](https://elog.1874.cool)
 
 
-[46_1677164223.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/5999649b-7796-46a0-abd4-2e17b7b607ab/46_1677164223.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T062840Z&X-Amz-Expires=3600&X-Amz-Signature=10fa38422c7c8c6a9a2e1e039ab52fc43f2f2066c28979692dfc8eb0761021d5&X-Amz-SignedHeaders=host&x-id=GetObject)
+[46_1677164223.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/5999649b-7796-46a0-abd4-2e17b7b607ab/46_1677164223.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T064133Z&X-Amz-Expires=3600&X-Amz-Signature=e101e9083b25f0f2730681ce8d15143ed7b1fd965d3790bf1456c26e52795c54&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ```python
@@ -118,7 +118,7 @@ print(f"password={pwd!r}")
 ```
 
 
-[example.txt](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/753c8245-2aea-45de-8a5a-509c105f6236/example.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T062840Z&X-Amz-Expires=3600&X-Amz-Signature=75efd69c778c48a05d3461ea8ee678a9cd60d55e29f428a2e6829d23753473a2&X-Amz-SignedHeaders=host&x-id=GetObject)
+[example.txt](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/753c8245-2aea-45de-8a5a-509c105f6236/example.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T064133Z&X-Amz-Expires=3600&X-Amz-Signature=538ad854b10fb612eb3b46286e2223a539398e810c8e0b550dde44edc7bfa9a1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## DataBase（数据库）

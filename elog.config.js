@@ -79,7 +79,7 @@ module.exports = {
       // 文件名为title
       filename: 'title',
       // 格式为markdown
-      format: 'markdown',
+      format: 'matter-markdown',
       filter: true, // 表示将按照表中的【status】字段进行过滤，保留所有【已发布】的文档
       catalog: true,
       frontMatter: {

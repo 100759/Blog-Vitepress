@@ -98,10 +98,10 @@ npm run server
 注册 Vercel 账号并绑定 Github，在 Vercel 导入 该项目，Vercel 会自动识别出该 Hexo 项目，不需要改动，直接选择 Deploy 部署。部署完成会有一个 Vercel 临时域名，你也可以绑定自己的域名。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/4467a32f-6a3d-4c4b-ab8c-ca3e42860df8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T062840Z&X-Amz-Expires=3600&X-Amz-Signature=b6d22f8d7bce6f0e10e3596a97416bf0ddf7c9739d08a477e2b7a3361fc1fe26&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/4467a32f-6a3d-4c4b-ab8c-ca3e42860df8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T064138Z&X-Amz-Expires=3600&X-Amz-Signature=dc2018e0e0f3468f3853e4f292c4bbc99b9e2910cf620c0400a2a5dfba4bcc2a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/3daedef9-b516-40e6-8c80-80bff543d62c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T062840Z&X-Amz-Expires=3600&X-Amz-Signature=b565fa6ebaa5f52bf0ae2cc06cd8d5b38f0fab1e7e6a4730954a6d79a23db1e4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/3daedef9-b516-40e6-8c80-80bff543d62c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T064138Z&X-Amz-Expires=3600&X-Amz-Signature=97d35d3bd3be78b508265927133a1810e6cb98b7fe5684d9f7adb783bc89e2b4&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 10. 配置 Github Actions 权限
@@ -110,7 +110,7 @@ npm run server
 在 Github 仓库的设置中找到 `Actions-General`，打开流水线写入权限`Workflow permissions`
 
 
-	![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/655e63eb-9fca-4856-ad6d-9deb87907f4a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T062840Z&X-Amz-Expires=3600&X-Amz-Signature=7005d9acd8bc799a47b4fad37c8a44161bf4ff8bde294357a087b76c060f9d8f&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/655e63eb-9fca-4856-ad6d-9deb87907f4a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T064138Z&X-Amz-Expires=3600&X-Amz-Signature=8bea0fa4d6693cdec3f3a308990e0a32202132531b49f16519d8c15d47edeb4f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 11. 配置环境变量
@@ -122,7 +122,7 @@ npm run server
 在 Github 仓库的设置中找到 `Secrets  and variables`，新增仓库的环境变量`NOTION_DATABASE_ID`和`NOTION_TOKEN`和`.elog.env`保持一致即可
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/00308cea-f5bb-4345-bc1d-7fce622ee54a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T062840Z&X-Amz-Expires=3600&X-Amz-Signature=db8132a8c56b2c356c4d2afcc5b88d7e145a49de4b7a48c636b1a854dbb4d039&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4ac1b234-5af8-4783-92f4-579baa826df9/00308cea-f5bb-4345-bc1d-7fce622ee54a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241021T064138Z&X-Amz-Expires=3600&X-Amz-Signature=54255fa727b19d42f9e7249b8418d4d1b661364712bfb33394cf663e2a54f644&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## 12. 自动化部署
